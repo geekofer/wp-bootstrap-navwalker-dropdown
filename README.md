@@ -13,7 +13,7 @@ require_once('wp_bootstrap_navwalker.php');
 #Usage
 
 Update your wp_nav_menu() function in header.php to use the new walker by adding a "walker" item to the wp_nav_menu array.
-```
+```php
 <?php
 // Menu Location
 wp_nav_menu( array(
@@ -31,7 +31,7 @@ wp_nav_menu( array(
 ```
 Add custom ccs for levels on hover dropdown options
 
-```
+```css
 /*Dropdown Css*/
 .dropdown:hover > .dropdown-menu {
   display: block;
